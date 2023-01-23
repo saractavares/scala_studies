@@ -31,5 +31,17 @@ def main(args: Array[String]) = {
         val nome_maiusculo = nome.toUpperCase
         println(nome)
         println(nome_maiusculo)
+
+    println("Exemplo 6: ")
+    // loop pela lista com condicional
+    for (contador <- 0 until nomes.length) {
+
+        if( nomes(contador) == "Alexandre") {
+            println("Amber está na posição: " + contador + " da lista de nomes")
+
+        } else {
+            println("Amber não está na posição: " + contador + " da lista de nomes")
+        }
+    }
     
 }
